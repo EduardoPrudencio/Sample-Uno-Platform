@@ -115,21 +115,34 @@ namespace UnoSample
 							}
 							))
 							,
+							new global::Windows.UI.Xaml.Controls.TextBlock
+							{
+								Text = ""/* string/, , TextBlock/Text */,
+								// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 20:14)
+							}
+							.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler1)(c7 => 
+							{
+								c7.FontFamily = (Windows.UI.Xaml.Media.FontFamily)global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Windows.UI.Xaml.Media.FontFamily), (global::Windows.UI.Xaml.Application.Current.Resources["FontAwesome"] ?? throw new InvalidOperationException("The resource FontAwesome cannot be found")));
+								
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c7, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+							}
+							))
+							,
 						}
 					}
-					.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler2)(c7 => 
+					.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler2)(c9 => 
 					{
-						global::Windows.UI.Xaml.Controls.Grid.SetRow(c7, 0/* int/, 0, Grid/Row */);
-						c7.Background = (Windows.UI.Xaml.Media.Brush)global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Windows.UI.Xaml.Media.Brush), (global::Windows.UI.Xaml.Application.Current.Resources["MainColor"] ?? throw new InvalidOperationException("The resource MainColor cannot be found")));
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c9, 0/* int/, 0, Grid/Row */);
+						c9.Background = (Windows.UI.Xaml.Media.Brush)global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Windows.UI.Xaml.Media.Brush), (global::Windows.UI.Xaml.Application.Current.Resources["MainColor"] ?? throw new InvalidOperationException("The resource MainColor cannot be found")));
 						
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c7, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c9, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
 					}
 					))
 					,
 					new global::Windows.UI.Xaml.Controls.StackPanel
 					{
 						VerticalAlignment = global::Windows.UI.Xaml.VerticalAlignment.Center/* Windows.UI.Xaml.VerticalAlignment/, Center, StackPanel/VerticalAlignment */,
-						// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 22:10)
+						// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 23:10)
 						Children = 
 						{
 							new global::Windows.UI.Xaml.Controls.TextBox
@@ -137,11 +150,11 @@ namespace UnoSample
 								Style = (Windows.UI.Xaml.Style)global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Windows.UI.Xaml.Style), (global::Windows.UI.Xaml.Application.Current.Resources["TextBoxDefault"] ?? throw new InvalidOperationException("The resource TextBoxDefault cannot be found")))
 								,
 								PlaceholderText = "Login"/* string/, Login, TextBox/PlaceholderText */,
-								// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 23:14)
+								// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 24:14)
 							}
-							.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler3)(c10 => 
+							.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler3)(c12 => 
 							{
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c10, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c12, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
 							}
 							))
 							,
@@ -150,20 +163,20 @@ namespace UnoSample
 								Style = (Windows.UI.Xaml.Style)global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Windows.UI.Xaml.Style), (global::Windows.UI.Xaml.Application.Current.Resources["PasswordBoxDefault"] ?? throw new InvalidOperationException("The resource PasswordBoxDefault cannot be found")))
 								,
 								PlaceholderText = "Senha"/* string/, Senha, PasswordBox/PlaceholderText */,
-								// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 24:14)
+								// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 25:14)
 							}
-							.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler4)(c12 => 
+							.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler4)(c14 => 
 							{
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c12, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c14, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
 							}
 							))
 							,
 						}
 					}
-					.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler2)(c13 => 
+					.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler2)(c15 => 
 					{
-						global::Windows.UI.Xaml.Controls.Grid.SetRow(c13, 1/* int/, 1, Grid/Row */);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c13, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c15, 1/* int/, 1, Grid/Row */);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c15, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
 					}
 					))
 					,
@@ -172,7 +185,7 @@ namespace UnoSample
 						VerticalAlignment = global::Windows.UI.Xaml.VerticalAlignment.Center/* Windows.UI.Xaml.VerticalAlignment/, Center, StackPanel/VerticalAlignment */,
 						HorizontalAlignment = global::Windows.UI.Xaml.HorizontalAlignment.Center/* Windows.UI.Xaml.HorizontalAlignment/, Center, StackPanel/HorizontalAlignment */,
 						Background = SolidColorBrushHelper.Blue/* Windows.UI.Xaml.Media.Brush/, Blue, StackPanel/Background */,
-						// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 27:10)
+						// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 28:10)
 						Children = 
 						{
 							new global::Windows.UI.Xaml.Controls.Button
@@ -181,42 +194,42 @@ namespace UnoSample
 								,
 								Content = @"Entrar"/* object/, Entrar, Button/Content */,
 								Width = 300d/* double/, 300, Button/Width */,
-								// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 28:14)
+								// Source ..\..\..\..\..\..\..\UnoSample.Shared\MainPage.xaml (Line 29:14)
 							}
-							.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler5)(c15 => 
+							.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler5)(c17 => 
 							{
-								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c15, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+								global::Uno.UI.FrameworkElementHelper.SetBaseUri(c17, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
 							}
 							))
 							,
 						}
 					}
-					.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler2)(c16 => 
+					.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler2)(c18 => 
 					{
-						global::Windows.UI.Xaml.Controls.Grid.SetRow(c16, 2/* int/, 2, Grid/Row */);
-						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c16, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+						global::Windows.UI.Xaml.Controls.Grid.SetRow(c18, 2/* int/, 2, Grid/Row */);
+						global::Uno.UI.FrameworkElementHelper.SetBaseUri(c18, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
 					}
 					))
 					,
 				}
 			}
-			.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler6)(c17 => 
+			.MainPage_93bab407d01a7ec5e2895c483e42096a_XamlApply((MainPage_93bab407d01a7ec5e2895c483e42096aXamlApplyExtensions.XamlApplyHandler6)(c19 => 
 			{
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c17, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c19, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
 			}
 			))
 			;
 			
 			this
-			.Apply((c18 => 
+			.Apply((c20 => 
 			{
 				// Source C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.Shared\MainPage.xaml (Line 1:2)
 			}
 			))
-			.Apply((c19 => 
+			.Apply((c21 => 
 			{
 				// Class UnoSample.MainPage
-				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c19, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
+				global::Uno.UI.FrameworkElementHelper.SetBaseUri(c21, "file:///C:/Users/dudup.000/Desktop/Projetos/UnoSample/UnoSample/UnoSample.Shared/MainPage.xaml");
 			}
 			))
 			;

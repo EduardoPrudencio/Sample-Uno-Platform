@@ -45,12 +45,30 @@ namespace UnoSample.Droid
 	public sealed partial class GlobalStaticResources
 	{
 		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 8:10)
+		private static bool _FontAwesomeInitialized = false;
+		private static global::Windows.UI.Xaml.Media.FontFamily __FontAwesomeBackingField;
+
+		public static global::Windows.UI.Xaml.Media.FontFamily FontAwesome
+		{
+			get
+			{
+				if(!_FontAwesomeInitialized)
+				{
+					__FontAwesomeBackingField = 
+						new Windows.UI.Xaml.Media.FontFamily("ms-appx:///Assets/Fonts/FontAwesome.ttf#FontAwesome")/* Windows.UI.Xaml.Media.FontFamily/Windows.UI.Xaml.Media.FontFamily, ms-appx:///Assets/Fonts/FontAwesome.ttf#FontAwesome, /_UnknownContent */						;
+					_FontAwesomeInitialized = true;
+				}
+				return __FontAwesomeBackingField;
+			}
+		}
+
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 10:10)
 		public static global::Windows.UI.Color MainColor { get; } = 
 		global::Windows.UI.ColorHelper.FromARGB(255, 235, 64, 52)/* Windows.UI.Color/Windows.UI.Color, #eb4034, /_UnknownContent */		;
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 9:10)
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 11:10)
 		public static global::Windows.UI.Color TitleColor { get; } = 
 		global::Windows.UI.ColorHelper.FromARGB(255, 255, 255, 255)/* Windows.UI.Color/Windows.UI.Color, #ffffff, /_UnknownContent */		;
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 11:10)
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 13:10)
 		private static bool _TextBoxBaseInitialized = false;
 		private static global::Windows.UI.Xaml.Style __TextBoxBaseBackingField;
 
@@ -82,7 +100,7 @@ namespace UnoSample.Droid
 			}
 		}
 
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 20:10)
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 22:10)
 		private static bool _TextBoxDefaultInitialized = false;
 		private static global::Windows.UI.Xaml.Style __TextBoxDefaultBackingField;
 
@@ -107,7 +125,7 @@ namespace UnoSample.Droid
 			}
 		}
 
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 24:10)
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 26:10)
 		private static bool _PasswordBoxDefaultInitialized = false;
 		private static global::Windows.UI.Xaml.Style __PasswordBoxDefaultBackingField;
 
@@ -132,7 +150,7 @@ namespace UnoSample.Droid
 			}
 		}
 
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 28:10)
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 30:10)
 		private static bool _ButtomMainInitialized = false;
 		private static global::Windows.UI.Xaml.Style __ButtomMainBackingField;
 
@@ -169,6 +187,8 @@ namespace UnoSample.Droid
 			{
 				switch(name)
 				{
+					case "FontAwesome":
+						return FontAwesome;
 					case "MainColor":
 						return MainColor;
 					case "TitleColor":

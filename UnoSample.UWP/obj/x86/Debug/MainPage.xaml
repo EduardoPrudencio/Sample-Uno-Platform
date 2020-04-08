@@ -17,6 +17,7 @@
         <StackPanel Grid.Row="0" Background="{StaticResource MainColor}" Padding="10" Margin="0,20,0,0">
             <TextBlock Text="Well" Foreground="{StaticResource TitleColor}" FontSize="38" FontFamily="ms-appx:///Assets/Fonts/Righteous-Regular.ttf#Righteous"/>
             <TextBlock Text="Come" Foreground="{StaticResource TitleColor}" FontSize="38" FontFamily="ms-appx:///Assets/Fonts/Righteous-Regular.ttf#Righteous" Margin="15,-13,0,0"/>
+            <TextBlock Text="&#xf0fc;" FontFamily="{StaticResource FontAwesome}" />
         </StackPanel>
 
         <StackPanel Grid.Row="1" VerticalAlignment="Center">

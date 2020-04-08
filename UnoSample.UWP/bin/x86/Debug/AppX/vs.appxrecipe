@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-08T22:23:16.993</Modified>
+      <Modified>2020-04-08T22:35:07.466</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\UnoSample.exe">
       <PackagePath>entrypoint\UnoSample.exe</PackagePath>
-      <Modified>2020-04-08T22:23:14.839</Modified>
+      <Modified>2020-04-08T22:35:06.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
@@ -125,15 +125,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\UnoSample.xr.xml">
       <PackagePath>UnoSample.xr.xml</PackagePath>
-      <Modified>2020-04-08T22:23:14.444</Modified>
+      <Modified>2020-04-08T22:35:05.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-08T22:23:14.484</Modified>
+      <Modified>2020-04-08T22:35:05.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-08T22:23:14.484</Modified>
+      <Modified>2020-04-08T22:35:05.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -145,7 +145,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\Core\UnoSample.exe">
       <PackagePath>UnoSample.exe</PackagePath>
-      <Modified>2020-04-08T22:23:16.973</Modified>
+      <Modified>2020-04-08T22:35:07.455</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

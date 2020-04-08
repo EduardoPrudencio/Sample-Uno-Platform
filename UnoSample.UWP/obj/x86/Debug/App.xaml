@@ -5,6 +5,8 @@
     xmlns:local="using:UnoSample">
 
     <Application.Resources>
+        <FontFamily x:Key="FontAwesome">ms-appx:///Assets/Fonts/FontAwesome.ttf#FontAwesome</FontFamily>
+        
         <Color x:Key="MainColor">#eb4034</Color>
         <Color x:Key="TitleColor">#ffffff</Color>
 

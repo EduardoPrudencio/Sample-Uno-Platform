@@ -4,6 +4,7 @@
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="Resources" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.FontFamily" />
     <RootType FullName="Windows.UI.Color" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="BorderBrush" />

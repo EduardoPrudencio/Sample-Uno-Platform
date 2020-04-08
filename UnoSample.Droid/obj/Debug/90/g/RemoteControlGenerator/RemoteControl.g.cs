@@ -18,13 +18,13 @@
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("169.254.158.175", 0)]
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("fe80::dceb:dd:9b48:fe43%25", 0)]
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("169.254.254.67", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("2804:14c:7785:8185:a889:7e6e:6ee8:f9ce", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("2804:14c:7785:8185:150b:681a:5cfc:e67d", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("2804:388:5012:fb12:a889:7e6e:6ee8:f9ce", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("2804:388:5012:fb12:a96b:5d8f:409b:6d74", 0)]
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("fe80::a889:7e6e:6ee8:f9ce%23", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("192.168.0.22", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("172.20.10.5", 0)]
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("fe80::c8a4:ad7e:cd01:207c%16", 0)]
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("169.254.32.124", 0)]
-[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("fe80::59b:1953:c3a4:d8ec%32", 0)]
+[assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("fe80::14fa:85e1:8dae:3387%32", 0)]
 [assembly: global::Uno.UI.RemoteControl.ServerEndpointAttribute("192.168.149.97", 0)]
 [assembly: global::Uno.UI.RemoteControl.ProjectConfigurationAttribute(
 @"C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.Droid\UnoSample.Droid.csproj",
