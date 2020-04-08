@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dudup.000\\Desktop\\Projetos\\UnoSample\\UnoSample\\UnoSample.iOS\\UnoSample.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dudup.000\\Desktop\\Projetos\\UnoSample\\UnoSample\\UnoSample.iOS\\UnoSample.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dudup.000\\Desktop\\Projetos\\UnoSample\\UnoSample\\UnoSample.iOS\\UnoSample.iOS.csproj",
+        "projectName": "UnoSample.iOS",
+        "projectPath": "C:\\Users\\dudup.000\\Desktop\\Projetos\\UnoSample\\UnoSample\\UnoSample.iOS\\UnoSample.iOS.csproj",
+        "packagesPath": "C:\\Users\\dudup.000\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dudup.000\\Desktop\\Projetos\\UnoSample\\UnoSample\\UnoSample.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dudup.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[2.1.37, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[2.1.37, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
