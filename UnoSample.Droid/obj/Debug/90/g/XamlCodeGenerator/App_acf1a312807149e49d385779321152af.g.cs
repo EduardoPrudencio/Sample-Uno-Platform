@@ -64,11 +64,14 @@ namespace UnoSample.Droid
 
 		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 10:10)
 		public static global::Windows.UI.Color MainColor { get; } = 
-		global::Windows.UI.ColorHelper.FromARGB(255, 235, 64, 52)/* Windows.UI.Color/Windows.UI.Color, #eb4034, /_UnknownContent */		;
+		global::Windows.UI.ColorHelper.FromARGB(255, 13, 92, 117)/* Windows.UI.Color/Windows.UI.Color, #0d5c75, /_UnknownContent */		;
 		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 11:10)
 		public static global::Windows.UI.Color TitleColor { get; } = 
-		global::Windows.UI.ColorHelper.FromARGB(255, 255, 255, 255)/* Windows.UI.Color/Windows.UI.Color, #ffffff, /_UnknownContent */		;
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 13:10)
+		global::Windows.UI.ColorHelper.FromARGB(255, 25, 159, 177)/* Windows.UI.Color/Windows.UI.Color, #199fb1, /_UnknownContent */		;
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 12:10)
+		public static global::Windows.UI.Color TitleButton { get; } = 
+		global::Windows.UI.ColorHelper.FromARGB(255, 165, 209, 225)/* Windows.UI.Color/Windows.UI.Color, #a5d1e1, /_UnknownContent */		;
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 14:10)
 		private static bool _TextBoxBaseInitialized = false;
 		private static global::Windows.UI.Xaml.Style __TextBoxBaseBackingField;
 
@@ -88,6 +91,7 @@ namespace UnoSample.Droid
 								),
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Control.HeightProperty, (double)50d/* double/double, 50, Setter/Value */),
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Control.ForegroundProperty, (Windows.UI.Xaml.Media.Brush)SolidColorBrushHelper.FromARGB(255, 138, 138, 138)/* Windows.UI.Xaml.Media.Brush/Windows.UI.Xaml.Media.Brush, #8a8a8a, Setter/Value */),
+								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Control.CornerRadiusProperty, (Windows.UI.Xaml.CornerRadius)new Windows.UI.Xaml.CornerRadius(20)/* Windows.UI.Xaml.CornerRadius/Windows.UI.Xaml.CornerRadius, 20, Setter/Value */),
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Control.FontSizeProperty, (double)18d/* double/double, 18, Setter/Value */),
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Control.MarginProperty, (Windows.UI.Xaml.Thickness)new global::Windows.UI.Xaml.Thickness(5)/* Windows.UI.Xaml.Thickness/Windows.UI.Xaml.Thickness, 5, Setter/Value */),
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Control.FontFamilyProperty, (Windows.UI.Xaml.Media.FontFamily)new Windows.UI.Xaml.Media.FontFamily("ms-appx:///Assets/Fonts/Righteous-Regular.ttf#Righteous")/* Windows.UI.Xaml.Media.FontFamily/Windows.UI.Xaml.Media.FontFamily, ms-appx:///Assets/Fonts/Righteous-Regular.ttf#Righteous, Setter/Value */),
@@ -100,7 +104,7 @@ namespace UnoSample.Droid
 			}
 		}
 
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 22:10)
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 24:10)
 		private static bool _TextBoxDefaultInitialized = false;
 		private static global::Windows.UI.Xaml.Style __TextBoxDefaultBackingField;
 
@@ -125,7 +129,7 @@ namespace UnoSample.Droid
 			}
 		}
 
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 26:10)
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 28:10)
 		private static bool _PasswordBoxDefaultInitialized = false;
 		private static global::Windows.UI.Xaml.Style __PasswordBoxDefaultBackingField;
 
@@ -150,7 +154,7 @@ namespace UnoSample.Droid
 			}
 		}
 
-		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 30:10)
+		// Source ..\..\..\..\..\..\..\UnoSample.Shared\App.xaml (Line 32:10)
 		private static bool _ButtomMainInitialized = false;
 		private static global::Windows.UI.Xaml.Style __ButtomMainBackingField;
 
@@ -168,7 +172,10 @@ namespace UnoSample.Droid
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Button.BackgroundProperty, () => (Windows.UI.Xaml.Media.Brush)
 								(Windows.UI.Xaml.Media.Brush)global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Windows.UI.Xaml.Media.Brush), (global::Windows.UI.Xaml.Application.Current.Resources["MainColor"] ?? throw new InvalidOperationException("The resource MainColor cannot be found")))
 								),
-								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Button.ForegroundProperty, (Windows.UI.Xaml.Media.Brush)SolidColorBrushHelper.White/* Windows.UI.Xaml.Media.Brush/Windows.UI.Xaml.Media.Brush, White, Setter/Value */),
+								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Button.ForegroundProperty, () => (Windows.UI.Xaml.Media.Brush)
+								(Windows.UI.Xaml.Media.Brush)global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof(Windows.UI.Xaml.Media.Brush), (global::Windows.UI.Xaml.Application.Current.Resources["TitleButton"] ?? throw new InvalidOperationException("The resource TitleButton cannot be found")))
+								),
+								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Control.CornerRadiusProperty, (Windows.UI.Xaml.CornerRadius)new Windows.UI.Xaml.CornerRadius(20)/* Windows.UI.Xaml.CornerRadius/Windows.UI.Xaml.CornerRadius, 20, Setter/Value */),
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Button.HeightProperty, (double)50d/* double/double, 50, Setter/Value */),
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Button.FontSizeProperty, (double)18d/* double/double, 18, Setter/Value */),
 								new global::Windows.UI.Xaml.Setter(global::Windows.UI.Xaml.Controls.Button.FontFamilyProperty, (Windows.UI.Xaml.Media.FontFamily)new Windows.UI.Xaml.Media.FontFamily("ms-appx:///Assets/Fonts/Righteous-Regular.ttf#Righteous")/* Windows.UI.Xaml.Media.FontFamily/Windows.UI.Xaml.Media.FontFamily, ms-appx:///Assets/Fonts/Righteous-Regular.ttf#Righteous, Setter/Value */),
@@ -193,6 +200,8 @@ namespace UnoSample.Droid
 						return MainColor;
 					case "TitleColor":
 						return TitleColor;
+					case "TitleButton":
+						return TitleButton;
 					case "TextBoxBase":
 						return TextBoxBase;
 					case "TextBoxDefault":

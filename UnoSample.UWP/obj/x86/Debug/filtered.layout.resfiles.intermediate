@@ -1,4 +1,6 @@
 WinMetadata\Windows.winmd
+Assets\Fonts\FontAwesome.ttf
+Assets\Fonts\Righteous-Regular.ttf
 Assets\SharedAssets.md
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
@@ -7,6 +9,6 @@ Assets\Square44x44Logo.scale-200.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
-MainPage.xbf
 UnoSample.xr.xml
+View\MainPage.xbf
 Properties\Default.rd.xml

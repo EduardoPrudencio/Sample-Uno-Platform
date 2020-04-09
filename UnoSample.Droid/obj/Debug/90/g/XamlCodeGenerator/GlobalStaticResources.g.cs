@@ -47,14 +47,14 @@ namespace UnoSample.Droid
 				AddResolver(global::Uno.UI.Toolkit.GlobalStaticResources.FindResource);
 				RegisterResources_App_acf1a312807149e49d385779321152af();
 				RegisterImplicitStylesResources_App_acf1a312807149e49d385779321152af();
-				RegisterResources_MainPage_93bab407d01a7ec5e2895c483e42096a();
-				RegisterImplicitStylesResources_MainPage_93bab407d01a7ec5e2895c483e42096a();
+				RegisterResources_MainPage_dd49b98d063440b28e1cdeb1e16bfb58();
+				RegisterImplicitStylesResources_MainPage_dd49b98d063440b28e1cdeb1e16bfb58();
 			}
 		}
 		static partial void RegisterResources_App_acf1a312807149e49d385779321152af();
 		static partial void RegisterImplicitStylesResources_App_acf1a312807149e49d385779321152af();
-		static partial void RegisterResources_MainPage_93bab407d01a7ec5e2895c483e42096a();
-		static partial void RegisterImplicitStylesResources_MainPage_93bab407d01a7ec5e2895c483e42096a();
+		static partial void RegisterResources_MainPage_dd49b98d063440b28e1cdeb1e16bfb58();
+		static partial void RegisterImplicitStylesResources_MainPage_dd49b98d063440b28e1cdeb1e16bfb58();
 		
 		/// <summary>
 		/// Finds a resource instance in the Global Static Resources

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F36B95224F119EA8784FAE54F42FAFB7753FBF668FFBC9FC6FF672458ABAB480</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>51E623D300CC3C8D81A2C2426C16B0B9DACAA3C1D247F024493579C9AF3EC696</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>09aae13c-f3ec-4042-899a-a6290be3592d_1.0.0.0_x86__yt5w6dfa15xyw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>09aae13c-f3ec-4042-899a-a6290be3592d_yt5w6dfa15xyw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>09aae13c-f3ec-4042-899a-a6290be3592d</RegisteredPackageID>
@@ -30,17 +30,29 @@
     <AppXManifest Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-08T22:35:07.466</Modified>
+      <Modified>2020-04-09T20:49:26.573</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\UnoSample.exe">
       <PackagePath>entrypoint\UnoSample.exe</PackagePath>
-      <Modified>2020-04-08T22:35:06.025</Modified>
+      <Modified>2020-04-09T20:49:19.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+      <Modified>2018-10-06T02:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\colorcode.uwp\2.0.6\lib\uap10.0\ColorCode.UWP.dll">
+      <PackagePath>ColorCode.UWP.dll</PackagePath>
+      <Modified>2018-10-06T02:30:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
       <Modified>2014-05-05T14:25:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\fontawesome.uwp\4.7.0.9\lib\uap10.0\FontAwesome.UWP.dll">
+      <PackagePath>FontAwesome.UWP.dll</PackagePath>
+      <Modified>2017-01-05T23:15:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.extensions.configuration.abstractions\1.1.1\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
@@ -70,6 +82,58 @@
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
       <Modified>2016-11-14T22:41:30.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit\6.0.0\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2019-11-13T05:36:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.parsers\6.0.0\lib\netstandard2.0\Microsoft.Toolkit.Parsers.dll">
+      <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
+      <Modified>2019-11-13T05:36:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2019-11-13T05:36:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.notifications\6.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
+      <Modified>2019-11-13T05:36:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.services\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.Services.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Services.dll</PackagePath>
+      <Modified>2019-11-13T05:36:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.ui\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+      <Modified>2019-11-13T05:36:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.ui.animations\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
+      <Modified>2019-11-13T05:36:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
+      <Modified>2019-11-13T05:36:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2019-11-13T05:36:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.ui.media\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Media.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Media.dll</PackagePath>
+      <Modified>2019-11-13T05:36:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2016-02-22T16:59:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2016-02-22T16:59:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-06-18T16:57:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.2\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2018-10-31T14:00:10.000</Modified>
@@ -82,9 +146,73 @@
       <PackagePath>Uno.Core.dll</PackagePath>
       <Modified>2019-07-10T20:37:32.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\win2d.uwp\1.24.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2019-10-26T02:27:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\runtimes\win10-x86\native\winsdkfb.dll">
+      <PackagePath>winsdkfb.dll</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\win2d.uwp\1.24.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2019-10-26T02:27:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\lib\win10\winsdkfb.winmd">
+      <PackagePath>winsdkfb.winmd</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-23T03:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\runtimes\win10-x86\native\winsdkfb\Controls\FacebookLoginButton.xbf">
+      <PackagePath>FacebookLoginButton.xbf</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\runtimes\win10-x86\native\winsdkfb\FacebookDialog.xbf">
+      <PackagePath>FacebookDialog.xbf</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\runtimes\win10-x86\native\winsdkfb\FacebookProfilePictureControl.xbf">
+      <PackagePath>FacebookProfilePictureControl.xbf</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\runtimes\win10-x86\native\winsdkfb\Themes\Generic.xbf">
+      <PackagePath>Generic.xbf</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\runtimes\win10-x86\native\winsdkfb\Themes\Styles.xbf">
+      <PackagePath>Styles.xbf</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\runtimes\win10-x86\native\winsdkfb\Images\fb_blank_profile_portrait.png">
+      <PackagePath>fb_blank_profile_portrait.png</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\fontawesome.uwp\4.7.0.9\lib\uap10.0\FontAwesome.UWP\FontAwesome.otf">
+      <PackagePath>FontAwesome.UWP\FontAwesome.otf</PackagePath>
+      <Modified>2017-01-05T23:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.ui.controls\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
+      <Modified>2019-11-13T05:32:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\6.0.0\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+      <Modified>2019-11-13T05:32:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\.nuget\packages\winsdkfb\0.12.20161020.4\lib\win10\winsdkfb\Images\fb_blank_profile_portrait.png">
+      <PackagePath>winsdkfb\Images\fb_blank_profile_portrait.png</PackagePath>
+      <Modified>2016-10-20T18:27:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Fontes\FontAwesome.ttf">
+      <PackagePath>Assets\Fonts\FontAwesome.ttf</PackagePath>
+      <Modified>2020-04-07T17:52:05.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Fontes\Righteous-Regular.ttf">
+      <PackagePath>Assets\Fonts\Righteous-Regular.ttf</PackagePath>
+      <Modified>2011-11-23T02:00:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -125,15 +253,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\UnoSample.xr.xml">
       <PackagePath>UnoSample.xr.xml</PackagePath>
-      <Modified>2020-04-08T22:35:05.651</Modified>
+      <Modified>2020-04-09T20:49:19.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-08T22:35:05.668</Modified>
+      <Modified>2020-04-09T20:49:19.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-08T22:35:05.669</Modified>
+    <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+      <Modified>2020-04-09T20:49:19.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -141,11 +269,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-08T17:46:45.448</Modified>
+      <Modified>2020-04-09T20:49:23.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dudup.000\Desktop\Projetos\UnoSample\UnoSample\UnoSample.UWP\bin\x86\Debug\Core\UnoSample.exe">
       <PackagePath>UnoSample.exe</PackagePath>
-      <Modified>2020-04-08T22:35:07.455</Modified>
+      <Modified>2020-04-09T20:49:26.539</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

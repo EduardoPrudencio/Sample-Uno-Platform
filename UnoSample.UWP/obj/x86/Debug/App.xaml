@@ -7,13 +7,15 @@
     <Application.Resources>
         <FontFamily x:Key="FontAwesome">ms-appx:///Assets/Fonts/FontAwesome.ttf#FontAwesome</FontFamily>
         
-        <Color x:Key="MainColor">#eb4034</Color>
-        <Color x:Key="TitleColor">#ffffff</Color>
+        <Color x:Key="MainColor">#0d5c75</Color>
+        <Color x:Key="TitleColor">#199fb1</Color>
+        <Color x:Key="TitleButton">#a5d1e1</Color>
 
         <Style x:Key="TextBoxBase"  TargetType="Control">
             <Setter Property="Control.BorderBrush" Value="{StaticResource MainColor}" />
             <Setter Property="Control.Height" Value="50" />
             <Setter Property="Foreground" Value="#8a8a8a" />
+            <Setter Property="Control.CornerRadius" Value="20" />
             <Setter Property="FontSize" Value="18"/>
             <Setter Property="Control.Margin" Value="5"/>
             <Setter Property="FontFamily" Value="ms-appx:///Assets/Fonts/Righteous-Regular.ttf#Righteous" />
@@ -29,7 +31,8 @@
 
         <Style x:Key="ButtomMain" TargetType="Button" >
             <Setter Property="Background" Value="{StaticResource MainColor}" />
-            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Foreground" Value="{StaticResource TitleButton}" />
+            <Setter Property="Control.CornerRadius" Value="20" />
             <Setter Property="Height" Value="50" />
             <Setter Property="FontSize" Value="18" />
             <Setter Property="FontFamily" Value="ms-appx:///Assets/Fonts/Righteous-Regular.ttf#Righteous" />
